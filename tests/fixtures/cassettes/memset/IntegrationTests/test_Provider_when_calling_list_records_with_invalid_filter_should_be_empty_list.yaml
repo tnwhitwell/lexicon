@@ -47,12 +47,8 @@ interactions:
         \n   \"relative\": false, \n   \"record\": \"random.fulltest\", \n   \"ttl\":
         3600, \n   \"type\": \"TXT\", \n   \"id\": \"16d16da92a67c0f8551761aa99c81650\"\n
         \ }, \n  {\n   \"priority\": 0, \n   \"zone_id\": \"cbceea86fe9c099f019e386488ead6d8\",
-        \n   \"address\": \"challengetoken\", \n   \"relative\": false, \n   \"record\":
-        \"random.test\", \n   \"ttl\": 3600, \n   \"type\": \"TXT\", \n   \"id\":
-        \"66101edf4487948af6ae94aa06887be3\"\n  }, \n  {\n   \"priority\": 0, \n   \"zone_id\":
-        \"cbceea86fe9c099f019e386488ead6d8\", \n   \"address\": \"ttlshouldbe3600\",
-        \n   \"relative\": false, \n   \"record\": \"ttl.fqdn\", \n   \"ttl\": 3600,
-        \n   \"type\": \"TXT\", \n   \"id\": \"d3fe988fd5967c79d88fdc606c31fb5c\"\n
+        \n   \"address\": \"ttlshouldbe3600\", \n   \"relative\": false, \n   \"record\":
+        \"ttl.fqdn\", \n   \"ttl\": 3600, \n   \"type\": \"TXT\", \n   \"id\": \"d3fe988fd5967c79d88fdc606c31fb5c\"\n
         \ }, \n  {\n   \"priority\": 0, \n   \"zone_id\": \"cbceea86fe9c099f019e386488ead6d8\",
         \n   \"address\": \"challengetoken1\", \n   \"relative\": false, \n   \"record\":
         \"_acme-challenge.createrecordset\", \n   \"ttl\": 3600, \n   \"type\": \"TXT\",

@@ -42,6 +42,8 @@ class Provider(BaseProvider):
                 self._get('/dns.reload')
                 logger.debug('create_record: %s', payload['id'])
                 return payload['id']
+        else:
+            return check_exists
 
     # List all records. Return an empty list if no records found
     # type, name and content are used to filter records.
